@@ -1,0 +1,19 @@
+framework: netstandard2.0, net45
+source https://api.nuget.org/v3/index.json
+
+nuget FSharp.Core >= 4.1.18 lowest_matching:true
+
+group NetStandard
+  framework: netstandard2.0
+  source https://api.nuget.org/v3/index.json
+
+  nuget System.Reflection.Emit.Lightweight >= 4.3.0 lowest_matching:true
+  nuget System.Reflection.Emit >= 4.3.0 lowest_matching:true
+
+group Test
+  framework: netcoreapp2.0
+  source https://api.nuget.org/v3/index.json
+
+  nuget Microsoft.NET.Test.Sdk >= 15.7.0
+  nuget Persimmon.TestAdapter >= 0.10.0
+  nuget Persimmon >= 3.1.1

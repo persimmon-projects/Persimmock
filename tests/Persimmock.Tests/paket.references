@@ -1,0 +1,8 @@
+FSharp.Core
+group NetStandard
+  System.Reflection.Emit.Lightweight
+  System.Reflection.Emit
+group Test
+  Microsoft.NET.Test.Sdk
+  Persimmon.TestAdapter
+  Persimmon
