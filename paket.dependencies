@@ -17,3 +17,15 @@ group Test
   nuget Microsoft.NET.Test.Sdk >= 15.7.0
   nuget Persimmon.TestAdapter >= 0.10.0
   nuget Persimmon >= 3.1.1
+
+group Build
+  framework: net451
+  redirects: on
+  source https://api.nuget.org/v3/index.json
+
+  nuget FAKE
+  nuget NuGet.CommandLine
+
+  github fsharp/FAKE modules/Octokit/Octokit.fsx
+  github persimmon-projects/Persimmon.Materials StandardIcons/persimmon.ico
+  github persimmon-projects/Persimmon.Materials StandardIcons/persimmon_128.png

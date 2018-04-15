@@ -1,0 +1,30 @@
+type project
+id Persimmock
+owners
+    bleis-tift, Gab-km, pocketberserker, kekyo, yukitos
+authors
+    bleis-tift, Gab-km, pocketberserker, kekyo, yukitos
+projectUrl
+    https://github.com/persimmon-projects/Persimmock
+licenseUrl
+    https://github.com/persimmon-projects/Persimmock/blob/master/LICENSE
+iconUrl
+    https://raw.githubusercontent.com/persimmon-projects/Persimmon.Materials/master/StandardIcons/persimmon_128.png
+requireLicenseAcceptance
+    false
+tags
+    F#, fsharp, testing mock
+description
+    Yet another mock library for F#
+dependencies
+  framework: net45
+    FSharp.Core >= LOCKEDVERSION
+  framework: netstandard2.0
+	FSharp.Core >= LOCKEDVERSION
+    System.Reflection.Emit.Lightweight >= LOCKEDVERSION-NetStandard
+    System.Reflection.Emit >= LOCKEDVERSION-NetStandard
+files
+    bin/Release/net45/Persimmock.dll ==> lib/net45
+    bin/Release/net45/Persimmock.xml ==> lib/net45
+    bin/Release/netstandard2.0/Persimmock.dll ==> lib/netstandard2.0
+    bin/Release/netstandard2.0/Persimmock.xml ==> lib/netstandard2.0
