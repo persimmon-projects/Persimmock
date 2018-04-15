@@ -1,2 +1,2 @@
-### 0.1.0 - Unrelease
+### 0.0.1 - April 16 2018
 * initial release
